@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:7.0-jammy
 
 COPY test_data/new_data/ /data/db/data/
 
